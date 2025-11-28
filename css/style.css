@@ -1,1 +1,69 @@
 /* Denna fil skall innehålla din CSS kod */
+
+header {
+    background-color:#a5b58d;
+    color: #fff894;
+    padding:15px;
+}
+
+h1 {
+    color: #fff894;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #f6efe8;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+main {
+    background-color: #b58b63;
+}
+
+#menu-card-section {
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.card-menu {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    background-color: brown;
+}
+
+/* Images */
+#cafe-logo {
+    max-width: 20%;
+}
+
+/* #cafe-inside {
+    max-width: 100%;
+} */
+
+/* temporary */
+img {
+    max-width:100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+a {
+    text-decoration: none;
+}
