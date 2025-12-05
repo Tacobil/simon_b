@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Kafé Solglimt</title>
 </head>
@@ -18,37 +17,39 @@
                 <h1>Kafé Solglimt</h1>
             </a>
         </header>
+
         <nav id="navbar">
-            <a href="index.html">Homepage</a>
-            <ul>
-                <!-- <li><a href="">hej</a></li> -->
+            <a class="nav-item" href="index.html">Startsida</a>
+
+            <a class="nav-item" href="menu.html">Meny</a>
+
+            <a class="nav-item" href="about.html">Om oss</a>
+        </nav>
+
+        <!-- <ul>
+                <li><a href="">Översikt</a></li>
+                <li><a href="">Info</a></li>
+                <li><a href="">Info</a></li>
+
             </ul>
-            <a href="menu.html">Meny</a>
             <ul>
-                <!-- <li><a href="">Lunch</a></li>
+                <li><a href="">Lunch</a></li>
                 <li><a href="">Bakverk</a></li>
-                <li><a href="">Drycker</a></li> -->
+                <li><a href="">Drycker</a></li>
             </ul>
-            <a href="about.html">Om oss</a>
             <ul>
-                <!-- <li><a href="">Hitta hit</a></li>
+                <li><a href="">Hitta hit</a></li>
                 <li><a href="">Öppettider</a></li>
                 <li><a href="">Kontakt</a></li>
                 <li><a href="">Vår Historia</a></li>
-                <li><a href="">Vår Personal</a></li> -->
-            </ul>
-        </nav>
+                <li><a href="">Vår Personal</a></li>
+            </ul> -->
         <main>
             <!-- Slogan -->
-            <h2>Välkommen</h2>
-
-            <img id="cafe-inside" alt="Inuti Kafé"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.life-in-travels.ru%2Fwp-content%2Fuploads%2F2014%2F10%2FKAFE.jpg&f=1&nofb=1&ipt=55021e286bb3244ebf9ba76a2395c6aa4ed50fba7cbec6d2faf54ef33e1f939d">
-
-            <h3>Info</h3>
-            <!-- öppetider, plats -->
-            <img id="cafe-outside" alt="Kafé utsida"
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc8.alamy.com%2Fcomp%2F2WA0B8M%2Fparis-france-view-outside-front-french-cafe-bistro-restaurant-with-flowers-decorations-caf-saint-honor-old-cafe-2WA0B8M.jpg&f=1&nofb=1&ipt=49038ec68309fc3f42fdef9c8d945706160e99de7a38c521c92cb129b4cc71e7">
+            <div id="slogan-section" class="background-image">
+                <h1>Välkommen till Kafé Solglimt</h1>
+                <h4>Soligaste kafét i Göteborg</h4>
+            </div>
 
             <!-- Meny -->
             <section id="menu-card-section">
@@ -56,8 +57,9 @@
                     <img src="https://evaspaley.se/wp-content/uploads/2023/07/frukost_paley.jpg">
                     <h3>Frukost</h3>
                     <div>
-                        <p>Vi serverar frukost varje dag, vilken tid som helst!</p>
-                        <p>Pris 179kr</p>
+                        <p>
+                            Vi serverar frukost varje dag, vilken tid som helst!
+                        </p>
                         <a href="menu.html">Frukost meny</a>
                     </div>
                 </div>
@@ -81,13 +83,56 @@
                 </div>
             </section>
 
-            <!--  -->
 
+            <section id="cafe-location" class="background-image">
+                <h1>Vart är vi?</h1>
+                <p>
+                    Kungsportsavenyen 39 <br>
+                    411 36 Göteborg, Sverige 
+                </p>
+            </section>
 
+            <!-- öppetider, plats -->
+            <section id="unnamed-section">
+                <div id="opening-hours">
+                    <h2>Öppetider</h2>
+                    <p id="test">
+                        <strong>Måndag-Torsdag</strong> 8:00-21:00
+                        <br>
+                        <strong>Fredag</strong> 8:00-22:00
+                        <br>
+                        <strong>Lördag</strong> 9:00-22:00
+                        <br>
+                        <strong>Söndag</strong> 9:00-21:00
+                    </p>
 
+                </div>
+
+                <section>
+                    <img alt="" src="">
+                    <img alt="" src="">
+                </section>
+            </section>
         </main>
+
         <footer>
-            fot
+            <div>
+                <h2>Kontakt</h2>
+                <p>
+                    <strong>Address</strong>: Kungsportsavenyen 39, Göteborg <br>
+                    <strong>Postnr</strong>: 411 36 <br>
+                    <strong>Tel</strong>: 070-123 45 67 <br>
+                    <strong>Mail</strong>: info@kafesolglimt.se <br>
+                </p>
+            </div>
+
+            <div>
+                <h2>Jobb</h2>
+                <p>
+                    Ska du praktisera, eller behöver ett jobb så är du varmt välkommen hit :) <br>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeu0X8Pl5_MXD2ECOuBN8ifg_2ZEnjCqBX5_V3YH-R5hF12yg/viewform?usp=dialog">Skicka in ansökan här</a>
+                </p>
+            </div>
         </footer>
     </div>
 </body>
