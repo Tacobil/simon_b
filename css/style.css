@@ -13,7 +13,6 @@ header h1 {
     color: #fff894;
 }
 
-
 nav {
     display: flex;
     flex-direction: row;
@@ -28,8 +27,6 @@ nav {
     font-family: sans-serif;
 
 }
-
-
 
 main {
     background-color: #b58b63;
@@ -60,7 +57,7 @@ main {
     aspect-ratio: 1.35;
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc8.alamy.com%2Fcomp%2F2WA0B8M%2Fparis-france-view-outside-front-french-cafe-bistro-restaurant-with-flowers-decorations-caf-saint-honor-old-cafe-2WA0B8M.jpg&f=1&nofb=1&ipt=49038ec68309fc3f42fdef9c8d945706160e99de7a38c521c92cb129b4cc71e7");
     color: white;
-    padding-top:20%;
+    padding: 10%;
     text-align:left;
 }
 
@@ -75,28 +72,35 @@ main {
 }
 
 #opening-hours {
-    background-color: #a5b58d;
+    background-color: #f6efe8;
     padding: 10px;
+    border-radius: 20px;
 }
 
 
-/* Menu preview */
-#menu-card-section {
+.menu-card-section {
     display:flex;
     flex-direction: row;
     gap: 20px;
     align-items: flex-start;
-    
     color:#403023;
 }
 
-.card-menu {
+.menu-card-preview {
     display:flex;
     flex-direction: column;
     gap: 10px;
     text-align: center;
     width: 100%;
 }
+
+.menu-card {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
 
 footer {
     background-color: rgb(35, 37, 45);
@@ -110,14 +114,23 @@ footer {
     text-align:left;
 }
 
+.about-us-template {
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: left;
+}
+
+.about-us-template img {
+    max-height: 400px;
+    max-width: 50%;
+}
 
 
 /* Images */
 #cafe-logo {
     max-width: 20%;
 }
-
-
 
 /* temporary */
 img {
