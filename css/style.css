@@ -1,15 +1,14 @@
-/* Denna fil skall innehålla din CSS kod */
 body {
-    text-align:center;
+    text-align: center;
 }
 
 .wrapper {
-    display:grid;
+    display: grid;
     grid-template-rows: auto auto 1fr auto;
 }
 
 header {
-    background-color:#a5b58d;
+    background-color: #a5b58d;
     padding: 1em;
 }
 
@@ -17,11 +16,22 @@ header h1 {
     color: #fff894;
 }
 
+header img {
+    width: 20%;
+    max-width: 160px;
+}
+
+.line {
+    background-color: #7c5e43;
+    height: 3px;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
     background-color: #f6efe8;
-    justify-content: space-around;
+    justify-content: center;
+    gap: min(6em, 15vw);
     align-items: center;
     padding: 0.5em;
 }
@@ -33,29 +43,65 @@ header h1 {
 
 main {
     background-color: #b58b63;
-    padding: 2em;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap: 2em;
+}
+
+.section-title {
+    margin-top: 2vw;
 }
 
 
 .background-image {
-    background-repeat:no-repeat;
-    background-size:cover;
-    border-radius: 1em;
-    display:flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
     flex-direction: column;
-    font-size: 1.5em
+    font-size: min(3vw, 3em);
 }
 
 #slogan {
     aspect-ratio: 1.45;
-    max-width: 30em;
+    padding: 1em;
+    width: 100%;
     background-image: url("../img/coffee-trio.jpg");
     justify-content: center;
     color: #ffffff;
     align-self: center;
+}
+
+.menu-card-section {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    align-items: flex-start;
+    color: #000000;
+    margin: 5vw;
+}
+
+.menu-card-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-card-preview img {
+    border-radius: 1.5vw;
+}
+
+/* 
+    border-radius: 1.5vw;
+    border: 3px solid #7c5e43;
+*/
+
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
 }
 
 #cafe-location {
@@ -63,11 +109,11 @@ main {
     background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc8.alamy.com%2Fcomp%2F2WA0B8M%2Fparis-france-view-outside-front-french-cafe-bistro-restaurant-with-flowers-decorations-caf-saint-honor-old-cafe-2WA0B8M.jpg&f=1&nofb=1&ipt=49038ec68309fc3f42fdef9c8d945706160e99de7a38c521c92cb129b4cc71e7");
     color: white;
     padding: 10%;
-    text-align:left;
+    text-align: left;
 }
 
 #unnamed-section {
-    display:grid;
+    display: grid;
     grid-template-columns: 3fr 4fr;
     min-height: 300px;
 }
@@ -82,49 +128,25 @@ main {
     border-radius: 20px;
 }
 
-
-.menu-card-section {
-    display:flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: flex-start;
-    color:#18120c;
-}
-
-.menu-card-preview {
-    display:flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-    width: 100%;
-}
-
-.menu-card {
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: left;
-}
-
-
 footer {
     background-color: rgb(35, 37, 45);
     color: white;
     font-family: sans-serif;
-    padding:20px;
+    padding: 20px;
 
-    display:flex;
+    display: flex;
     flex-direction: row;
     gap: 30px;
-    text-align:left;
+    text-align: left;
     line-height: 1.8em;
 }
 
 .about-us-template {
-    display:flex;
+    display: flex;
     flex-direction: row;
     gap: 20px;
     text-align: left;
+    margin: 1em 5vw;
 }
 
 .about-us-template img {
@@ -132,16 +154,9 @@ footer {
     max-width: 50%;
 }
 
-
-/* Images */
-#cafe-logo {
-    max-width: 20%;
-}
-
 /* temporary */
 img {
-    max-width:100%;
-    border-radius: 20px;
+    max-width: 100%;
 }
 
 * {
@@ -150,7 +165,7 @@ img {
     box-sizing: border-box;
 }
 
-p, a {
+p,a {
     font-family: sans-serif;
     text-decoration: none;
 }

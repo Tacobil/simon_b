@@ -1,0 +1,13 @@
+2026-01-05
+    fixat rubriker till rätt element (h1, h2)
+    förbättrat skalning
+
+
+
+att göra
+    frilägga matbilderna på startsidan
+
+    komprimera bilder
+    fixa kontrast på text (contrastchecker.com)
+    testa på tre olika webbläsare
+    ändra layout på about (är väldigt lik menyn. använd grid)
