@@ -2,9 +2,13 @@
     fixat rubriker till rätt element (h1, h2)
     förbättrat skalning
 
+2026-01-07
+    ändrat layout till den nya skissen
 
 
 att göra
+    meny
+    om oss
     frilägga matbilderna på startsidan
 
     komprimera bilder
