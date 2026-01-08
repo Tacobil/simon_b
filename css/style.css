@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .wrapper {
@@ -45,7 +46,6 @@ header img {
 
 .nav-item {
     color: black;
-    font-family: sans-serif;
 }
 
 main {
@@ -144,7 +144,6 @@ main {
 footer {
     background-color: rgb(35, 37, 45);
     color: white;
-    font-family: sans-serif;
     padding: 20px;
 
     display: flex;
@@ -170,36 +169,7 @@ img {
     max-width: 100%;
 }
 
-#cafe-location {
-    aspect-ratio: 1.35;
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc8.alamy.com%2Fcomp%2F2WA0B8M%2Fparis-france-view-outside-front-french-cafe-bistro-restaurant-with-flowers-decorations-caf-saint-honor-old-cafe-2WA0B8M.jpg&f=1&nofb=1&ipt=49038ec68309fc3f42fdef9c8d945706160e99de7a38c521c92cb129b4cc71e7");
-    color: white;
-    padding: 10%;
-    text-align: left;
-}
-
-
-#unnamed-section {
-    display: grid;
-    grid-template-columns: 3fr 4fr;
-    min-height: 300px;
-}
-
-#unnamed-section img {
-    background-color: blue;
-}
-
-#opening-hours {
-    background-color: #f6efe8;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-
-
-
 p,a {
-    font-family: sans-serif;
     text-decoration: none;
 }
 
@@ -211,6 +181,50 @@ a:hover {
 #test {
     line-height: 2em
 }
+
+/* Menu */
+#menu-wrapper {
+    padding: 2vh 10vw;
+    text-align: center;
+    display:grid;
+    justify-items: center;
+}
+
+#menu-wrapper nav {
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+#menu-wrapper nav button {
+    border: 2px solid #7c5e43;
+}
+
+.menu-section {
+    margin: 2em 0; /* margin top, bot */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 3em;
+    max-width: 800px;
+
+}
+
+.menu-article {
+    background-color: #f6efe8;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    
+}
+
+.menu-article h4, .menu-article p {
+    text-align: left;
+}
+
+
 
 /*
 FONTS

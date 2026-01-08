@@ -3,8 +3,10 @@
     förbättrat skalning
 
 2026-01-07
-    ändrat layout till den nya skissen
+    ändrat startsidans layout till skiss v2
 
+2026-01-08
+    ändrat menyn till skiss v2
 
 att göra
     meny
@@ -14,4 +16,3 @@ att göra
     komprimera bilder
     fixa kontrast på text (contrastchecker.com)
     testa på tre olika webbläsare
-    ändra layout på about (är väldigt lik menyn. använd grid)
