@@ -19,6 +19,10 @@ header h1 {
     color: #fff894;
 }
 
+header a:hover {
+    text-decoration: none;
+}
+
 header img {
     width: 20%;
     max-width: 100px;
@@ -76,12 +80,17 @@ main {
 }
 
 .menu-card-section {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
     gap: 5vw;
+
     align-items: flex-start;
     color: #000000;
     margin: 5vw;
+
 }
 
 .menu-card-preview {
@@ -119,9 +128,9 @@ main {
 #image-collection {
     display: grid;
     grid-template-areas:
-    "img-l img-c img-c img-tr"
-    "img-l img-c img-c img-br";
-    grid-template-columns: 2fr 1fr 1fr 2fr;
+    "img-l img-c img-tr"
+    "img-l img-c img-br";
+    grid-template-columns: 1fr 1.065fr 1fr;
     gap: 3vw;
     padding: 3vw;
     background-color: #b58b63;
@@ -196,6 +205,7 @@ p,a {
 
 a:hover {
     text-decoration: underline;
+    text-decoration-color: currentColor;
 }
 
 #test {
